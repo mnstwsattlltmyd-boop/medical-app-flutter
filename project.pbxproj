@@ -1,0 +1,33 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+		3B06AD1E1E4923F5004D2608 /* Dart Obfuscation Options */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DART_OBFUSCATION = NO;
+				ENABLE_BITCODE = NO;
+				FLUTTER_APPLICATION_PATH = ../..;
+				FLUTTER_BUILD_DIR = build;
+				FLUTTER_BUILD_NAME = 1.0.0;
+				FLUTTER_BUILD_NUMBER = 1;
+				FLUTTER_TARGET = lib/main.dart;
+				SYMROOT = ${SOURCE_ROOT}/Flutter/Flutter.framework;
+			};
+			name = Release;
+		};
+		9740EEB21CF90195004384FC /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				9740EEB31CF90195004384FC /* Flutter.framework */,
+				9740EEB41CF90195004384FC /* Flutter.podspec */,
+			);
+			name = Flutter;
+			sourceTree = "<group>";
+		};
+	};
+	rootObject = 97C146E61CF9000F007C117D /* Project object */;
+}
